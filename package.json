@@ -1,0 +1,25 @@
+{
+    "name": "missing-textmate-tokens",
+    "displayName": "missing-textmate-tokens",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "markup",
+            "aliases": ["markup", "markup"],
+            "extensions": [".markup"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "markup",
+            "scopeName": "source.markup",
+            "path": "./syntaxes/markup.tmLanguage.json"
+        }]
+    }
+}
